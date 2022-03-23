@@ -10,12 +10,12 @@ public class Kvadrati extends Martkutkhedi {
 
   @Override
   public double fartobi() {
-    return a * a;
+    return Format.round(a * a);
   }
 
   @Override
   public double perimetri() {
-    return 4 * a;
+    return Format.round(4 * a);
   }
 
   @Override

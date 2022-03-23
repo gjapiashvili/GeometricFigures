@@ -9,12 +9,12 @@ public class Tsre implements Figura {
 
   @Override
   public double fartobi() {
-    return Math.PI * radiusi * radiusi;
+    return Format.round(Math.PI * radiusi * radiusi);
   }
 
   @Override
   public double perimetri() {
-    return 2 * Math.PI * radiusi;
+    return Format.round(2 * Math.PI * radiusi);
   }
 
   @Override
@@ -23,6 +23,6 @@ public class Tsre implements Figura {
   }
 
   public double diametri() {
-    return radiusi * 2.0;
+    return Format.round(radiusi * 2.0);
   }
 }

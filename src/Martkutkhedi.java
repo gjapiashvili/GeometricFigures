@@ -9,12 +9,12 @@ public class Martkutkhedi implements Figura {
 
   @Override
   public double fartobi() {
-    return sigrdze * sigane;
+    return Format.round(sigrdze * sigane);
   }
 
   @Override
   public double perimetri() {
-    return (sigrdze + sigane) * 2.0;
+    return Format.round((sigrdze + sigane) * 2.0);
   }
 
   @Override

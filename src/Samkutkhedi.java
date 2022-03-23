@@ -20,12 +20,12 @@ public class Samkutkhedi implements Figura {
   public double fartobi() {
     var s = (a + b + c) / 2.0;
 
-    return Math.sqrt(s * (s - a) * (s - b) * (s - c));
+    return Format.round(Math.sqrt(s * (s - a) * (s - b) * (s - c)));
   }
 
   @Override
   public double perimetri() {
-    return a + b + c;
+    return Format.round(a + b + c);
   }
 
   @Override

@@ -10,12 +10,13 @@ public class TolgverdaSamkutkhedi extends Samkutkhedi {
 
   @Override
   public double fartobi() {
-    return (Math.sqrt(3.0) / 4.0) * a * a;
+
+    return  Format.round((Math.sqrt(3.0) / 4.0) * a * a);
   }
 
   @Override
   public double perimetri() {
-    return 3 * a;
+    return Format.round(3 * a);
   }
 
   @Override
