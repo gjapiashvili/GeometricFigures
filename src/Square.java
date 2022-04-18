@@ -20,7 +20,7 @@ public class Square extends Rectangle {
 
   @Override
   public String figure() {
-    return "კვადრატი";
+    return "Square";
   }
 
 }

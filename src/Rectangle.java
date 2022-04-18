@@ -19,7 +19,7 @@ public class Rectangle implements Figure {
 
   @Override
   public String figure() {
-    return "მართკუთხედი";
+    return "Rectangle";
   }
 
 }

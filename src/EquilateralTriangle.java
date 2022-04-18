@@ -21,7 +21,7 @@ public class EquilateralTriangle extends Triangle {
 
   @Override
   public String figure() {
-    return "ტოლგვერდა სამკუთხედი";
+    return "Equilateral Triangle";
   }
 
 }

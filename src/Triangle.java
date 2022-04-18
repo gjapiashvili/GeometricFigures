@@ -30,7 +30,7 @@ public class Triangle implements Figure {
 
   @Override
   public String figure() {
-    return "სამკუთხედი";
+    return "Triangle";
   }
 
 }
