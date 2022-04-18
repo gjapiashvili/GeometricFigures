@@ -1,9 +1,9 @@
-public class Samkutkhedi implements Figura {
+public class Triangle implements Figure {
   private double a;
   private double b;
   private double c;
 
-  public Samkutkhedi(double a, double b, double c) {
+  public Triangle(double a, double b, double c) {
     if (a + b <= c ||
         b + c <= a ||
         a + c <= b) {
@@ -17,19 +17,19 @@ public class Samkutkhedi implements Figura {
 
   //TODO სწორია?
   @Override
-  public double fartobi() {
+  public double area() {
     var s = (a + b + c) / 2.0;
 
     return Format.round(Math.sqrt(s * (s - a) * (s - b) * (s - c)));
   }
 
   @Override
-  public double perimetri() {
+  public double perimeter() {
     return Format.round(a + b + c);
   }
 
   @Override
-  public String figura() {
+  public String figure() {
     return "სამკუთხედი";
   }
 

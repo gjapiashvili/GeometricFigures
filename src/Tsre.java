@@ -1,4 +1,4 @@
-public class Tsre implements Figura {
+public class Tsre implements Figure {
   private double radiusi;
 
   //TODO კონსტრუქტორი public რო არ იყოს იმუშავებს?
@@ -8,17 +8,17 @@ public class Tsre implements Figura {
   }
 
   @Override
-  public double fartobi() {
+  public double area() {
     return Format.round(Math.PI * radiusi * radiusi);
   }
 
   @Override
-  public double perimetri() {
+  public double perimeter() {
     return Format.round(2 * Math.PI * radiusi);
   }
 
   @Override
-  public String figura() {
+  public String figure() {
     return "წრე";
   }
 
